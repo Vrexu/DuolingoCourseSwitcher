@@ -17,7 +17,7 @@ document.head.appendChild($('<style type="text/css">'+
     '.side-menu>li>a:hover,.side-menu>li>a:focus,.side-menu>li>a:hover span {text-decoration:none;color:#fff;background-color:#1caff6;}'+
     '.side-menu>li>a.shared {color:#ccc; }'+
     '.dropup .side-menu,.navbar-fixed-bottom .dropdown .side-menu {top:auto;bottom:100%;margin-bottom:1px;}'+
-    '.topbar-language .side-menu .flag { position:absolute; left:20px; top:8px;}'+
+    '.topbar-language .side-menu .flag { position:relative; left:-8px; top:0px;}'+
     '.side-menu>.disabled>a:hover,.side-menu>.disabled>a:focus {text-decoration:none;background-color:transparent;background-image:none;cursor:not-allowed;}'+
     '.language-sub-courses {position:absolute; top:0px; left:200px; color:#000; background-color: #fff; width: 150px; min-height: 50px; display: none;}'+
     '</style>').get(0));
